@@ -1,0 +1,42 @@
+body
+{
+  text-align: center;
+background: linear-gradient( #0093E9 0%, #80D0C7 100%);
+background-repeat:no-repeat;
+}
+
+imag
+{
+  border-radius:50%;
+  width:100px;
+}
+
+h1
+{
+  text-shadow:2px 2px #F8BBDO;
+  font-size : 20px;
+  }
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+}
+.link {
+    float: left;
+    padding-top: 5px; padding-left: 9px; padding-right: 9px; padding-bottom: 5px;
+}
+#welcome {
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+}
